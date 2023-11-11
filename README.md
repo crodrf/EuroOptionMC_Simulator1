@@ -35,16 +35,6 @@ The library comprises several components, each serving a specific role:
 - C++ Compiler (C++11 or later)
 - Python 3.x with Matplotlib installed
 
-### Installation
-1. Clone the repository:
-   ```
-   git clone [repository URL]
-   ```
-2. Navigate to the cloned directory and compile the source code:
-   ```
-   [Instructions for compilation]
-   ```
-
 ### Usage
 Include the necessary headers in your project and utilize the classes and functions as required for simulation and analysis.
 
