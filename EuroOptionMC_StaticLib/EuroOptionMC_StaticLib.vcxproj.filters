@@ -9,9 +9,62 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Header Files\CommonUtilities">
+      <UniqueIdentifier>{95ad90f8-69a8-42b2-8861-9d7bc7467f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{c1cd6a67-b541-49da-9a1f-4b08795fef3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NumericArray">
+      <UniqueIdentifier>{8104bf73-de71-4c3f-9865-3f7b0a6653c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plot">
+      <UniqueIdentifier>{80dc8620-83a0-462e-965e-2988fe76d141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Random">
+      <UniqueIdentifier>{2002d2cc-d05a-413b-8b14-e069b074de27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parameters">
+      <UniqueIdentifier>{89c24140-cf13-448f-bcb8-9af45c15f8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EuropeanOptionMC">
+      <UniqueIdentifier>{93e316cd-7479-44d9-91b1-ef46b2f4722d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StockPriceSimulator">
+      <UniqueIdentifier>{bf7a1e51-5487-4e6d-92c6-b043cced9323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statistics">
+      <UniqueIdentifier>{e77f9312-a526-4988-8d99-fa071bc32e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommonUtilities">
+      <UniqueIdentifier>{8098ec4e-5e25-4c23-a19d-4ae96cc32bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{9ee6bbc0-37a4-44b0-9c3a-d292c5d3ac4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NumericArray">
+      <UniqueIdentifier>{e701433f-34db-47a8-b7a1-b582f68932b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parameters">
+      <UniqueIdentifier>{734167c0-25c2-45ff-aca1-4625da139825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Payoff">
+      <UniqueIdentifier>{da03ac0e-8919-4c03-8758-3cb057ee0ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\plot">
+      <UniqueIdentifier>{41b7457a-5f16-4c59-b27a-823ffdc2dfd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Random">
+      <UniqueIdentifier>{8f4668bc-8e10-4376-989d-33a776b24b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Statistics">
+      <UniqueIdentifier>{f1e6e703-5a0b-4511-9c2c-78febbc76fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StockPriceSimulator">
+      <UniqueIdentifier>{82d04e7b-cc5b-4811-aec0-87a8fa0eaf9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EuropeanOptionMC">
+      <UniqueIdentifier>{7037a5f3-5d11-4506-951b-4d59cb7c2272}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -21,10 +74,172 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\CommonUtilities.h">
+      <Filter>Header Files\CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TimeInterval.h">
+      <Filter>Header Files\CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FinancialDataAnalyzer.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FinancialDataCollector.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HistoricalMeanReturnCalculator.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HistoricalMomentumCalculator.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFinancialCalculationStrategy.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RiskFreeRateCalculator.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataFilterInclude.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UtilityFunctions.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NumericArray.h">
+      <Filter>Header Files\NumericArray</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EuropeanOptionMC.h">
+      <Filter>Header Files\EuropeanOptionMC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConvergenceTable.h">
+      <Filter>Header Files\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsHandler.h">
+      <Filter>Header Files\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsMC.h">
+      <Filter>Header Files\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsMean.h">
+      <Filter>Header Files\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParameterInner.h">
+      <Filter>Header Files\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Parameters.h">
+      <Filter>Header Files\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParametersConstant.h">
+      <Filter>Header Files\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IncludeParameter.h">
+      <Filter>Header Files\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IncludeStatistics.h">
+      <Filter>Header Files\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IncludeStochasticMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IncludeRandom.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParkMiller.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RandomBase.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RandomParkMiller.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RandomUtilities.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IncludePlot.h">
+      <Filter>Header Files\Plot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IPlotScriptGenerator.h">
+      <Filter>Header Files\Plot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PythonMatplotlibGenerator.h">
+      <Filter>Header Files\Plot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StockPriceSimulator.h">
+      <Filter>Header Files\StockPriceSimulator</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtilities.cpp">
+      <Filter>Source Files\CommonUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeInterval.cpp">
+      <Filter>Source Files\CommonUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="FinancialDataAnalyzer.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="FinancialDataCollector.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoricalMeanReturnCalculator.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoricalVolatilityCalculator.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilityFunctions.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="RiskFreeRateCalculator.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericArray.cpp">
+      <Filter>Source Files\NumericArray</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameters.cpp">
+      <Filter>Source Files\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="Payoffs.cpp">
+      <Filter>Source Files\Payoff</Filter>
+    </ClCompile>
+    <ClCompile Include="VanillaOption.cpp">
+      <Filter>Source Files\Payoff</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonMatplotlibGenerator.cpp">
+      <Filter>Source Files\plot</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomBase.cpp">
+      <Filter>Source Files\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomParkMiller.cpp">
+      <Filter>Source Files\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomUtilities.cpp">
+      <Filter>Source Files\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="ParkMiller.cpp">
+      <Filter>Source Files\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsHandler.cpp">
+      <Filter>Source Files\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsMC.cpp">
+      <Filter>Source Files\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvergenceTable.cpp">
+      <Filter>Source Files\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="EuropeanOptionMC.cpp">
+      <Filter>Source Files\EuropeanOptionMC</Filter>
+    </ClCompile>
+    <ClCompile Include="StockPriceSimulator.cpp">
+      <Filter>Source Files\StockPriceSimulator</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

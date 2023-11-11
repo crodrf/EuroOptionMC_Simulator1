@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CommonUtilities_Test">
+      <UniqueIdentifier>{d4b90da8-7023-4102-8469-4639810e9d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data_Test">
+      <UniqueIdentifier>{77a8bba5-ee97-4987-9584-ee2b1c5bb46f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EuropeanOptionMCTest">
+      <UniqueIdentifier>{f8e64ace-a808-4f1c-9d21-cd037bc0c2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Plot_Test">
+      <UniqueIdentifier>{57afd797-a949-460a-b9a1-ea0342a0a22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Payoff_Test">
+      <UniqueIdentifier>{2828325c-0dd5-4b6d-8d0f-11c6a2b79d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parameters_Test">
+      <UniqueIdentifier>{b10601e7-7bc9-478e-bec5-edab036d3b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NumericArray_Test">
+      <UniqueIdentifier>{711b5437-44e7-4bad-98dd-db812773faf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Random_Test">
+      <UniqueIdentifier>{fca5239d-2c24-4e30-86a7-ea13bedd0f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StockPriceSimulatorTest">
+      <UniqueIdentifier>{4e3650d9-60bd-4834-b8f9-80a7510ae2b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtilitiesTest.cpp">
+      <Filter>Source Files\CommonUtilities_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTest.cpp">
+      <Filter>Source Files\Data_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="EuropeanOptionMCTest.cpp">
+      <Filter>Source Files\EuropeanOptionMCTest</Filter>
+    </ClCompile>
+    <ClCompile Include="StockPriceSimulator.cpp">
+      <Filter>Source Files\StockPriceSimulatorTest</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomUtilities.cpp">
+      <Filter>Source Files\Random_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="plotTest.cpp">
+      <Filter>Source Files\Plot_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="PayoffTest.cpp">
+      <Filter>Source Files\Payoff_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="ParametersTest.cpp">
+      <Filter>Source Files\Parameters_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericArrayTest.cpp">
+      <Filter>Source Files\NumericArray_Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
