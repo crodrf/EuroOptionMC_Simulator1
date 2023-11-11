@@ -39,7 +39,7 @@ The library comprises several components, each serving a specific role:
 Include the necessary headers in your project and utilize the classes and functions as required for simulation and analysis.
 
 ## Licenses
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.txt](./LICENSE.txt) file for details.
 
 Parts of this library are adapted from code by Mark Joshi (author of "C++ Design Patterns and Derivatives Pricing"), which is licensed as follows:
 ```
